@@ -24,6 +24,26 @@ public class App
         System.out.println(badlazer.name);
 
 
+        // Static & Fields
+        StaticLazers staticLazer = new StaticLazers();
+        StaticLazers staticLazer2 = new StaticLazers();
+        StaticLazers staticLazer3 = new StaticLazers();
+
+        System.out.println(staticLazer.toString());
+        System.out.println(staticLazer2.toString());
+        System.out.println(staticLazer3.toString());
+
+        // Update the static field ONCE and it'll happen in EVERY
+        // object of that class.
+        staticLazer.setThisValueWillExistInEveryObject("this new value will exist in all objects");
+
+        System.out.println(staticLazer.toString());
+        System.out.println(staticLazer2.toString());
+        System.out.println(staticLazer3.toString());
+
+
+
+
 
     }
 }
