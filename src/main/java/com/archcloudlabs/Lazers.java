@@ -1,6 +1,5 @@
 package com.archcloudlabs;
 
-import java.text.Format;
 
 // whoa a package! classes in the same package do not need to import eachother they can just create new objects
 // What's an example where a class in a different packge you have to import?
